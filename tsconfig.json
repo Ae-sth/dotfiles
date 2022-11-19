@@ -19,14 +19,11 @@
     "paths": {
       "@core/*": ["./src/core/*"],
       "@components/*": ["./src/components/*"],
-      "@scripts/*":["./src/scripts/*"],
-      "@misc/*": ["./src/misc/*"],
-      "@errors/*": ["./src/errors/*"],
+      "@modules/*":["./src/modules/*"],
+      "@misc/*": ["./src/misc/*"]
       "@events/*": ["./src/events/*"],
       "@types/*": ["./src/types/*"],
-      "@assets/*": ["./assets/*"],
-      "@deps/*": ["./deps/*"],
-      "@env": ["./.env"]
+      "@assets/*": ["./assets/*"]
     }
   },
   "exclude": ["node_modules", "dist"]
